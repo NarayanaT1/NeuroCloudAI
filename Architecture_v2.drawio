@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="XElpZ9KWQ-vcfMDv-e4c">
+    <mxGraphModel dx="1323" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bq5025NNTpMJnjNB3in--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Metrics | Logs | Traces | Events&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="340" x="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Processing Layer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="290" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--12" edge="1" parent="1" source="bq5025NNTpMJnjNB3in--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#0B4D6A;" target="bq5025NNTpMJnjNB3in--11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="390" />
+              <mxPoint x="430" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zImzlAytOnsHEe99XDNS-1" edge="1" parent="1" source="bq5025NNTpMJnjNB3in--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#0B4D6A;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429.30769230769215" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zImzlAytOnsHEe99XDNS-2" edge="1" parent="1" source="bq5025NNTpMJnjNB3in--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429.30769230769215" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;AI/ML Engine(Anomaly Detection + Prediction)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="280" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#0B4D6A;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="244" as="sourcePoint" />
+            <mxPoint x="430" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Intelligent Decision Engine&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="300" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="zImzlAytOnsHEe99XDNS-14" edge="1" parent="1" source="bq5025NNTpMJnjNB3in--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0B4D6A;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bq5025NNTpMJnjNB3in--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="615" />
+              <mxPoint x="670" y="340" />
+            </Array>
+            <mxPoint x="670" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Automated Remediation Actions&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="280" x="300" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--19" edge="1" parent="1" source="bq5025NNTpMJnjNB3in--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#0B4D6A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="130" />
+              <mxPoint x="435" y="130" />
+            </Array>
+            <mxPoint x="430" y="130" as="sourcePoint" />
+            <mxPoint x="435" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--31" edge="1" parent="1" source="bq5025NNTpMJnjNB3in--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#0B4D6A;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Application/Microservices&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="250" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="bq5025NNTpMJnjNB3in--38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#0B4D6A;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="494" as="sourcePoint" />
+            <mxPoint x="430" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zImzlAytOnsHEe99XDNS-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#EEEEEE;" value="&lt;font style=&quot;font-size: 25px; color: rgb(0, 0, 0);&quot;&gt;NeuroCloud AI — Self-Healing Cloud Architecture&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="750" x="70" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="zImzlAytOnsHEe99XDNS-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#0B4D6A;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
